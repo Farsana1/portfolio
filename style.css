@@ -1,0 +1,96 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    align-items: center;
+     background-image: url(bg.jpg) ;
+     background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+
+}
+.navbar{
+    align-items: left;
+    
+}
+
+.home{
+  padding: 10px;
+}
+.about{
+padding: 10px;
+}
+.project{
+    padding: 10px;
+}
+.interests{
+    padding: 10px;
+}
+.education{
+    padding: 10px;
+}
+.contactme{
+    padding: 10px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: cadetblue;
+}
+
+ li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+   text-decoration: none;
+   word-spacing: 50%;
+}
+ a:hover{
+    background-color: burlywood;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 20px 0px ;
+}
+.input{
+    padding: 10px;
+    margin: 15px;
+    width: 30%;
+    border: 15px;
+   outline: none;
+   
+ }
+ #msg{
+     width: 50%;
+     padding: 10px;
+     margin: 100px;
+     border: none;
+     outline: none;
+
+ }
+ #send{
+     padding: 10px;
+     width: 20%;
+     margin: 40px;
+     border: none;
+     outline: none;
+ }
+ #send:hover{
+     cursor: pointer;
+     box-shadow: 0 0 10px red;
+ }
+
+.footer{
+    padding: 50px;
+    background-color: grey;
+    margin: auto;
+     
+    display: block;
+}
